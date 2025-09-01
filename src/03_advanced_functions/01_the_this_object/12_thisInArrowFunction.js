@@ -18,6 +18,8 @@ Requirements:
 
 function exploreThisInArrowFunction(arrowFunc, regularFunc) {
     // Implement this function
+    this.name = "test";
+    return [arrowFunc(), regularFunc()];
 }
 
 module.exports = exploreThisInArrowFunction;
